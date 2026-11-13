@@ -1,0 +1,64 @@
+Pixel Music (desktop)
+=====================
+
+Copyright (C) 2026 Rajat Solanki
+
+Pixel Music is a modified version of Materialfy (https://github.com/fatyzzz/materialfy), renamed and changed
+since 2026-11 (YouTube Music, Monochrome and JioSaavn playback, a PixelPlayer-style interface, lyrics tools,
+romanization, queue history and more; the Spotify side is no longer used). It is free software under the GNU
+General Public License, version 3 or (at your option) any later version (LICENSE). The source code of every
+release is attached to that release at https://github.com/Rajat-Solankii/PixelMusic/releases.
+
+Pixel Music is not affiliated with Google, YouTube, PixelPlayer or the Pixel Music Android app.
+Fonts added in Pixel Music: Google Sans Flex - SIL Open Font License 1.1
+(src/materialfy/assets/fonts/LICENSE-GoogleSansFlex.txt).
+
+The notice of the original project follows.
+
+Materialfy
+==========
+
+Copyright (C) 2026 Materialfy contributors
+
+Materialfy is free software: you can redistribute it and/or modify it under the terms of the GNU General
+Public License as published by the Free Software Foundation, either version 3 of the License, or (at your
+option) any later version (LICENSE). Releases up to and including 0.2.1 were published under the MIT License.
+
+Materialfy is based on spotifast (crmne, MIT) and yamusic-md3 (yaskorinov, MIT). Their copyright notices and
+the MIT License text are kept in LICENSES/MIT.txt; authorship and what came from where are listed below.
+
+1. spotifast (crmne) - Spotify logic
+   https://github.com/crmne/spotifast
+   Copyright (c) 2026 Carmine Paolino. MIT License.
+   Taken from it: OAuth PKCE sign-in, Web API client, playback through librespot, Spotify Connect,
+   queue, library, radio (crates/sf-auth, crates/sf-api, crates/sf-player, crates/sf-services).
+
+2. yamusic-md3 (yaskorinov) - interface
+   https://github.com/yaskorinov/yamusic-md3
+   Copyright (c) 2025-2026 yaskorinov and contributors. MIT License.
+   Taken from it: the QML interface and the Material 3 Expressive component library (src/materialfy/qml),
+   the cxx-qt shell (crates/materialfy), cover-based theming (crates/mf-theme),
+   lyrics (crates/mf-lyrics), platform services (crates/mf-platform),
+   build and packaging scripts.
+
+Third-party components
+----------------------
+
+- librespot (fork https://github.com/fatyzzz/librespot, based on crmne's patches) - MIT,
+  Copyright (c) 2015 Paul Lietar and librespot-org contributors. Playback and Spotify Connect.
+- fastframe-audio, fastframe-now-playing (https://github.com/dennisgr7/fastframe) - MIT,
+  Copyright (c) 2026 Carmine Paolino. Audio output device, media keys and SMTC/MPRIS.
+- hyper-proxy2 (fork https://github.com/crmne/hyper-proxy2) - MIT.
+- cxx-qt (https://github.com/KDAB/cxx-qt) - MIT or Apache-2.0.
+- Qt 6 (https://www.qt.io) - LGPL-3.0; the Qt libraries are linked dynamically and shipped
+  unmodified; their sources are available at https://download.qt.io.
+- Google Sans - SIL Open Font License 1.1 (src/materialfy/assets/fonts/LICENSE-GoogleSans.txt).
+- Material Symbols Rounded - Apache License 2.0 (src/materialfy/assets/fonts/LICENSE-MaterialSymbols.txt).
+- Other Rust dependencies - under the licenses stated in their packages (cargo metadata / Cargo.lock).
+
+Trademarks
+----------
+
+Spotify is a trademark of Spotify AB. Materialfy is an independent project; it is not affiliated
+with or endorsed by Spotify, Yandex or the authors of the original projects. The Materialfy logo
+("Wave-M") is original and does not use the Spotify logo.
